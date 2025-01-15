@@ -1,0 +1,29 @@
+{
+  "name": "warehouse-mgmt-api-core",
+  "version": "0.0.1",
+  "description": "The project contains the api for the core functionality of any warehouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developerdeepak/warehouse-mgmt-api-core.git"
+  },
+  "keywords": [
+    "warehouse",
+    "management",
+    "core",
+    "api"
+  ],
+  "author": "Deepak Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developerdeepak/warehouse-mgmt-api-core/issues"
+  },
+  "homepage": "https://github.com/developerdeepak/warehouse-mgmt-api-core#readme",
+  "dependencies": {
+    "firebase-admin": "^13.0.2",
+    "firebase-functions": "^6.2.0"
+  }
+}
