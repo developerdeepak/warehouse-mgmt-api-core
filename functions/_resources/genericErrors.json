@@ -1,6 +1,6 @@
 {
     "resource.bundle.name.required": "File name is required",
-    "resource.bundle.not.exist" : "File {0} doesn't exist",
+    "resource.bundle.not.exist" : "File '{0}' doesn't exist",
     "resource.key.name.required": "Key is required",
-    "resource.key.not.exist" : "Key {0} doesn't exist in file {1}"
+    "resource.key.not.exist" : "Key '{0}' doesn't exist in file '{1}'"
 }

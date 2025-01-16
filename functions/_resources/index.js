@@ -2,6 +2,7 @@ const bundles = {
     genericErrors: require('./genericErrors.json'),
     httpErrors: require('./httpErrors.json')
 };
+const params = require('./params.json');
 
 function getMsg(key, bundle) {
     return bundles[bundle][key];
@@ -10,7 +11,7 @@ function getMsg(key, bundle) {
 function getFormattedMsg(key, bundle, ...args) {
     let formattedMsg = getMsg(key, bundle);
     args.forEach((item, index) => {
-        formattedMsg = formattedMsg.replace(`{${index}}`, `'${item}'`);
+        formattedMsg = formattedMsg.replace(`{${index}}`, `${item}`);
     });
     return formattedMsg;
 }
@@ -50,5 +51,6 @@ function msg() {
 }
 
 exports.Resources = {
-    msg: msg
+    msg: msg,
+    params: params
 };

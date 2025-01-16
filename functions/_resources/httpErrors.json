@@ -1,3 +1,5 @@
 {
-    "http.method.not.supported": "{0} METHOD is not supported"
+    "http.method.not.supported": "'{0}' METHOD is not supported",
+    "http.request.parameter.missing": "'{0}' parameter is missing",
+    "http.request.parameter.invalid": "'{0}' parameter has invalid value"
 }
